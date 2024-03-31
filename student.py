@@ -13,7 +13,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS user(
 бал  INTEGER
 )''')
 
-c.execute('''INSERT INTO user VALUES('футбол','Кутман',',Басарбеков','1982',10)''')
+c.execute('''INSERT INTO user VALUES('футбол','Кутман',',Баqсарбеков','1982',10)''')
 c.execute('''INSERT INTO user VALUES('музыка','Арман',',Ногойбаев','1981',7)''')
 c.execute('''INSERT INTO user VALUES('рисование','Айжан',',Курманова','1982',20)''')
 c.execute('''INSERT INTO user VALUES('танцы','Алина',',Майрамова','2006',5)''')
